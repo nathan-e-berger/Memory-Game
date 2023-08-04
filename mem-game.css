@@ -1,0 +1,36 @@
+/* you can add to or change this. */
+
+body {
+  background-color: black;
+  color: aquamarine;
+}
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#game1, #game2 {
+  text-align: center;
+  /* position: relative; */
+  width: 540px;
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+
+card {
+  display: inline-block;
+  height: 150px;
+  min-width: 75px;
+  background-color: gray;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px 1px aquamarine ;
+}
+
+#reset {
+  border-radius: 7px;
+  color: rgb(111, 85, 181);
+  margin: auto;
+  display: block;
+}
